@@ -1,0 +1,25 @@
+{
+  "name": "this",
+  "version": "1.0.0",
+  "description": "Minimaliste css grid file for fast webpage building",
+  "main": "this.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkhousni/this.git"
+  },
+  "keywords": [
+    "grid",
+    "css",
+    "minimalist",
+    "page"
+  ],
+  "author": "linkhousni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkhousni/this/issues"
+  },
+  "homepage": "https://github.com/linkhousni/this#readme"
+}

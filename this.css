@@ -1,0 +1,166 @@
+/*Qamaria css 2016*/
+
+body{
+    background-color: #f8faff;
+    color: #222;
+    font-family: sans-serif;
+    font-size: medium;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    color: rgb(0, 132, 201);
+}
+
+/* Grid */
+.master-grid{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* wide-grid */
+.master-grid.wide-grid{
+    width: 100% !important;
+}
+.t-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col{
+    padding: 0 15px;
+    margin: 0;
+    position: relative !important;
+    min-height: 1px;
+}
+.c--1{width: 8.33333%}
+.c--2{width: 16.66667%}
+.c--3{width: 25%}
+.c--4{width: 33.33333%}
+.c--5{width: 41.66667%}
+.c--6{width: 50%}
+.c--7{width: 58.33333%}
+.c--8{width: 66.66667%}
+.c--9{width: 75%}
+.c--10{width: 83.33333%}
+.c--11{width: 96.66667%}
+.c--12{width: 100%}
+.offset--4{
+    margin-left: 33.33333%;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="time"],
+input[type="week"],
+input[type="month"],
+input[type="search"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="file"],
+select,
+textarea{
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+}
+/*Media Queries*/
+/* Medium devices */
+@media screen and (max-width: 1230px) {
+    .master-grid{
+        width: 930px;
+    }
+    /* Desktop */
+    .dsk--1{width: 8.33333%}
+    .dsk--2{width: 16.66667%}
+    .dsk--3{width: 25%}
+    .dsk--4{width: 33.33333%}
+    .dsk--5{width: 41.66667%}
+    .dsk--6{width: 50%}
+    .dsk--7{width: 58.33333%}
+    .dsk--8{width: 66.66667%}
+    .dsk--9{width: 75%}
+    .dsk--10{width: 83.33333%}
+    .dsk--11{width: 96.66667%}
+    .dsk--12{width: 100%}
+}
+
+/* Small devices */
+@media screen and (max-width: 995px) {
+    .master-grid{
+        width: 730px;
+    }
+    [class*="dsk--"]{
+        width: 100%;
+    }
+    .tablet--1{width: 8.33333%}
+    .tablet--2{width: 16.66667%}
+    .tablet--3{width: 25%}
+    .tablet--4{width: 33.33333%}
+    .tablet--5{width: 41.66667%}
+    .tablet--6{width: 50%}
+    .tablet--7{width: 58.33333%}
+    .tablet--8{width: 66.66667%}
+    .tablet--9{width: 75%}
+    .tablet--10{width: 83.33333%}
+    .tablet--11{width: 96.66667%}
+    .tablet--12{width: 100%}
+}
+
+/* XSmall devices */
+@media screen and (max-width: 767px) {
+    .master-grid{
+        width: 570px;
+    }
+    [class*="tab--"]{
+        width: 100%;
+    }
+    .mob--1{width: 8.33333%}
+    .mob--2{width: 16.66667%}
+    .mob--3{width: 25%}
+    .mob--4{width: 33.33333%}
+    .mob--5{width: 41.66667%}
+    .mob--6{width: 50%}
+    .mob--7{width: 58.33333%}
+    .mob--8{width: 66.66667%}
+    .mob--9{width: 75%}
+    .mob--10{width: 83.33333%}
+    .mob--11{width: 96.66667%}
+    .mob--12{width: 100%}
+
+    .spec--50{width: 50%}
+}
+@media screen and (max-width: 576px){
+    [class*="c--"], [class*="dsk--"], [class*="tab--"]{
+        width: 100%;
+    }
+    .master-grid{
+        width: auto;
+    }
+    .mob--3{width: 25%}
+    .mob--9{width: 75%}
+    .spec--50{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px){
+
+}
