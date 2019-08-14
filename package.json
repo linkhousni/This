@@ -1,6 +1,6 @@
 {
   "name": "this-css-km",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimaliste css grid file for fast webpage building",
   "main": "this.css",
   "scripts": {
